@@ -6,3 +6,5 @@ spec:
   containers:
   - name: gomscontainer
     image: nginx
+    containerPort:
+    - port: 80
